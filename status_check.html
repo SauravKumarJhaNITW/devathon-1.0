@@ -15,7 +15,7 @@
         }
     </style>
     <title>check status</title>
-</head>
+   </head>
 
 <body>
     <nav class="navbar navbar-dark bg-dark">
@@ -41,7 +41,7 @@
   </div>
 </div>
     <br><br>
-    <form>
+    <form action = "actionpage.php" method="post" onsubmit = " alert('succesfully submitted, reference id is:')" >
   <div class="row">
     <div class="col">
       <input type="text" class="form-control" placeholder="reference id*" required="true">
@@ -49,7 +49,7 @@
     
   </div>
   <br>
-  <button type="submit" class="btn btn-primary mb-2" onsubmit = "window.alert(succesfully submitted)">Check Status</button>
+  <button type="submit" class="btn btn-primary mb-2">Check Status</button>
 </form>
 
     <!-- Optional JavaScript -->
